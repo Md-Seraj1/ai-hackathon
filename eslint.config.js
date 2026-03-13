@@ -1,3 +1,4 @@
+// Update 2
 // Update 1
 import js from '@eslint/js'
 import globals from 'globals'
