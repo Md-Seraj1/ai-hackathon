@@ -1,3 +1,4 @@
+// Update 1
 import { BrowserRouter, Routes, Route, Navigate, Outlet } from 'react-router-dom';
 import { useEffect } from 'react';
 import { Layout } from './components/layout/Layout';
