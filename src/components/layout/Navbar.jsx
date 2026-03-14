@@ -1,3 +1,4 @@
+// Update 1
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Home, Search, ShoppingBag, User, Camera } from 'lucide-react';
