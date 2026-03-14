@@ -1,3 +1,4 @@
+// Update 1
 import React, { useState } from 'react';
 import { Star, Plus, Heart } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
