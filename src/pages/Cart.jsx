@@ -1,3 +1,4 @@
+// Update 2
 // Update 1
 import React from 'react';
 import { useCartStore } from '../lib/store';
