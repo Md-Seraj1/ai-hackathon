@@ -1,3 +1,4 @@
+// Update 2
 // Update 1
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, Search as SearchIcon, X, TrendingUp, Clock, SlidersHorizontal } from 'lucide-react';
