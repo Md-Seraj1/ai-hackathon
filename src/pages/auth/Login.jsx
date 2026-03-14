@@ -1,3 +1,4 @@
+// Update 1
 import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { supabase, isSupabaseConfigured } from '../../lib/supabase';
