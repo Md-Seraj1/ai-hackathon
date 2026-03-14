@@ -1,3 +1,4 @@
+// Update 1
 import React from 'react';
 import { ArrowLeft, CreditCard, ShieldCheck, CheckCircle2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
