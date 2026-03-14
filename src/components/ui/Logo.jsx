@@ -1,3 +1,4 @@
+// Update 1
 import React from 'react';
 
 export const Logo = ({ className = "w-20 h-20", showText = false }) => {
