@@ -1,3 +1,4 @@
+-- Update 1
 -- Storage Bucket Configuration for 'product-images'
 
 -- 1. Create the bucket 'product-images' if it doesn't exist and ensure it is public
