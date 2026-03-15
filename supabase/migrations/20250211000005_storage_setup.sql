@@ -1,3 +1,4 @@
+-- Update 2
 -- Update 1
 -- Storage Bucket Configuration for 'product-images'
 
