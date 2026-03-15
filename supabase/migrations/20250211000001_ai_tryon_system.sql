@@ -1,3 +1,4 @@
+-- Update 1
 -- AI Try-On System Migration
 -- 1. Add is_ai_enabled column to products table
 ALTER TABLE products ADD COLUMN IF NOT EXISTS is_ai_enabled BOOLEAN DEFAULT FALSE;
