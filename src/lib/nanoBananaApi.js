@@ -1,3 +1,4 @@
+// Update 1
 /**
  * Nano Banana API - Virtual Try-On
  * Supports both api.nano-banana.run (sync) and api.nanobananaapi.ai (async + poll)
