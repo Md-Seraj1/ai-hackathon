@@ -1,3 +1,4 @@
+<!-- Update 1 -->
 # TryOnMe - AI Powered E-Commerce App
 
 A production-ready mobile-first e-commerce application with AI Virtual Try-On capabilities, built with React, Supabase, and Tailwind CSS.
