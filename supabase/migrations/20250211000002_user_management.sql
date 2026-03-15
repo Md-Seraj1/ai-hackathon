@@ -1,3 +1,4 @@
+-- Update 1
 -- Admin User Management Migration
 
 -- 1. Add is_suspended to profiles
