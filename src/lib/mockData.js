@@ -1,0 +1,63 @@
+export const CATEGORIES = [
+    { id: '1', name: 'Clothes', slug: 'clothes', image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=800' },
+    { id: '2', name: 'Jewellery', slug: 'jewellery', image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=800' },
+    { id: '3', name: 'Watches', slug: 'watches', image: 'https://images.unsplash.com/photo-1524592094765-f7a5f02eb9f9?auto=format&fit=crop&q=80&w=800' },
+];
+
+export const PRODUCTS = [
+    {
+        id: 'p1',
+        name: 'Classic Denim Jacket',
+        brand: 'Urban Thread',
+        price: 89.99,
+        rating: 4.8,
+        reviews: 120,
+        image: 'https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?auto=format&fit=crop&q=80&w=800',
+        category: 'clothes',
+        description: 'A timeless classic denim jacket that goes with everything.',
+    },
+    {
+        id: 'p2',
+        name: 'Gold Plated Necklace',
+        brand: 'Luxe',
+        price: 149.00,
+        rating: 4.9,
+        reviews: 54,
+        image: 'https://images.unsplash.com/photo-1599643478518-17488fbbcd75?auto=format&fit=crop&q=80&w=800',
+        category: 'jewellery',
+        description: 'Elegant gold plated necklace for special occasions.',
+    },
+    {
+        id: 'p3',
+        name: 'Chronograph Watch',
+        brand: 'Timeless',
+        price: 299.00,
+        rating: 4.7,
+        reviews: 89,
+        image: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&q=80&w=800',
+        category: 'watches',
+        description: 'Precision chronograph with leather strap.',
+    },
+    {
+        id: 'p4',
+        name: 'Floral Summer Dress',
+        brand: 'Bloom',
+        price: 59.99,
+        rating: 4.5,
+        reviews: 200,
+        image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&q=80&w=800',
+        category: 'clothes',
+        description: 'Light and airy floral dress perfect for summer days.',
+    },
+    {
+        id: 'p5',
+        name: 'Silver Ring Set',
+        brand: 'Argent',
+        price: 45.00,
+        rating: 4.6,
+        reviews: 32,
+        image: 'https://images.unsplash.com/photo-1627932634424-699313ac3530?auto=format&fit=crop&q=80&w=800',
+        category: 'jewellery',
+        description: 'Set of 3 minimalist silver rings.',
+    }
+];
