@@ -1,3 +1,4 @@
+-- Update 2
 -- Update 1
 -- ==========================================
 -- SEED DATA FOR TRYONME MOBILE APP
