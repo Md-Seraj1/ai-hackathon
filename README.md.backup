@@ -1,0 +1,78 @@
+<!-- Update 3 -->
+<!-- Update 2 -->
+<!-- Update 1 -->
+# TryOnMe - AI Powered E-Commerce App
+
+A production-ready mobile-first e-commerce application with AI Virtual Try-On capabilities, built with React, Supabase, and Tailwind CSS.
+
+## 📱 Features
+
+- **Mobile First Design**: Optimized for touch interfaces and mobile viewports.
+- **Amazon-Style Browsing**: Categories, Search, Product Details.
+- **AI Virtual Try-On**: Integration ready for Nano Banana Pro API.
+- **Real-time Cart**: Powered by Zustand and persistent local storage.
+- **Backend**: Supabase (Auth, Database, RLS).
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 18, Vite
+- **Styling**: Tailwind CSS, Framer Motion (Animations), Lucide React (Icons)
+- **State Management**: Zustand
+- **Data Fetching**: TanStack Query
+- **Backend / Auth**: Supabase
+
+## 🚀 Getting Started
+
+### 1. Environment Setup
+
+Copy the example environment file and fill in your Supabase credentials:
+
+```bash
+cp .env.example .env
+```
+
+You need to provide:
+- `VITE_SUPABASE_URL`: Your Supabase Project URL.
+- `VITE_SUPABASE_ANON_KEY`: Your Supabase Anon Key.
+- `VITE_NANO_BANANA_API_KEY`: API Key for the AI service.
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Database Setup (Supabase)
+
+1. Go to your Supabase Dashboard.
+2. Open the **SQL Editor**.
+3. Copy the contents of `supabase/schema.sql` and run it.
+4. This will create all necessary tables, Row Level Security policies, and triggers.
+
+### 4. Run Locally
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173`.
+
+## 📦 Deployment
+
+This app is ready for deployment on **Vercel** or **Netlify**.
+
+1. Push code to GitHub.
+2. Import project in Vercel/Netlify.
+3. Add the Environment Variables (`VITE_SUPABASE_URL`, etc.) in the dashboard.
+4. Deploy!
+
+## 🧪 AI Try-On Integration
+
+The application is structured to support AI Try-On. The `TryOn` page checks for the API key.
+Integrate the specific logic in `src/pages/TryOn.jsx` (currently a placeholder) using the `tryon_sessions` table in Supabase.
+
+## 🔐 Security
+
+- **RLS Enabled**: All tables have Row Level Security Policies enabled.
+- **Secure Auth**: Uses Supabase Auth for user management.
+
